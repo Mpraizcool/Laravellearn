@@ -1,4 +1,9 @@
-<!-- resources/views/example.blade.php -->
+<?php
+
+public function index() {
+    return view('example', ['name' => 'John']);
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
