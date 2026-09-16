@@ -1,7 +1,7 @@
 <?php
 
 public function index() {
-    return view('example', ['name' => 'John']);
+    return view('example', ['surname' => 'John']);
 }
 ?>
 <!DOCTYPE html>
@@ -10,6 +10,6 @@ public function index() {
     <title>Laravel Example</title>
 </head>
 <body>
-    <h1>Welcome, {{ $name }}!</h1>
+    <h1>Welcome, {{ $surname }}!</h1>
 </body>
 </html>
